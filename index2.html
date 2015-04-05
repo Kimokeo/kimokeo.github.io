@@ -17,30 +17,45 @@
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="javascripts/foundation.min.js"></script>
 
-        <div class="large-12 colums">
-          <div class="large-4 columns">
-            <a href="https://github.com/Kimokeo"><img src="images/webicon-github.svg" height="50" width="50"></a>
-            <a href="https://www.linkedin.com/pub/kimokeo-rabang/b6/72a/b15"><img src="images/webicon-linkedin.svg" height="50" width="50"></a>
-            <a href="mailto@kimokerava@gmail.com"><img src="images/webicon-mail.svg" height="50" width="50"></a>
-          </div>
-
-
 
 
       <!-- <div id="section1" class="large-12 columns"> -->
-  <section id="section1" class="homeSlide">
+  <section id="slide-1" class="homeSlide">
     <div class="bcg"
         data-center="background-position: 50% 0px;"
-        data-top-bottom="background-position: 40% -50px;"
+        data-top-bottom="background-position: 50% -100px;"
         data-anchor-target="#section1">
         <div class="hsContainer">
-          <div class="hsContent"
-              data-center="opacity: 1"
-              data-106-top="opacity: 0"
-              data-anchor-target="#section1 h2">
+            <div class="hsContent"
+                data-center="opacity: 1"
+                data-106-top="opacity: 0"
+                data-anchor-target="#section1 h2"
+            >
+                <h2>Fade out elements before <br>they leave viewport</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <div class="row" class="linkshrink">
+          <div class="large-3 columns">
+            <a id="forkme_banner" href="https://github.com/Kimokeo">View my GitHub!</a>
+          </div>
+          <div class="large-9 columns">
+            <ul class="button-group right">
+              <li><a href="#" class="button">Link 1</a></li>
+              <li><a href="#" class="button">Link 2</a></li>
+              <li><a href="#" class="button">Link 3</a></li>
+              <li><a href="#" class="button">Link 4</a></li>
+            </ul>
           </div>
         </div>
-          <div class="section1pos">
+   
+     
+   
+        <div class="section1pos">
+          <div class="row">
             <div class="large-12 columns">
               <!-- <div id="header_wrap2" class="outer"> -->
               <header class="inner">
@@ -56,35 +71,10 @@
               </header>
             </div>
           </div>
-      </div>
-    </section>
-  </div>
-   
-
-   
-
-
-    <section id="section2" class="homeSlide">
-    <div class="bcg"
-        data-center="background-position: -125px 25%;"
-        data-bottom-top="background-position: 40px 5%;"
-        data-top-bottom="background-position: -100px 75%;"
-        data-anchor-target="#section2">
-        <div class="hsContainer">
-            <div class="hsContent">
-                <div class="plaxEl"
-                    data-106-top="opacity: 0"
-                    data-bottom="opacity: 1; position: fixed; top: 206px; width: 100%; left: 0;"
-                    data--30p-top="opacity: 1;"
-                    data--60p-top="opacity: 0;"
-                    data-anchor-target="#section2 h2">
-                    <div class="large-4 columns">
-                    <h2>Fixed element fading in and out</h2>
-                    </div>
-                  </div>
-            </div>
         </div>
-    <div class="section2pos">
+
+    <div class="section2" class="large-12 columns">
+     <div class="section2pos">
       <div class="row">
         <div class="large-4 columns">
           <div class="appimage">
@@ -92,7 +82,7 @@
           </div>
         </div>
         <div class="large-8 columns">
-          <h4 style="color:white">Crescendo</h4>
+          <h4>Crescendo</h4>
           <div class="row">
             <div class="large-6 columns">
               <p>Designed to be a Github for musicians, Crescendo allows recording via MIDI devices, and allows you to download and upload your own MIDI files. Files can then be shared and utilized by other users.</p>
@@ -598,27 +588,15 @@
         </div>
       </div>
     </div>
-</section>
-
-
+    <div id="main_content_wrap" class="outer">
+    <section id="main_content" class="inner">
     </div>
 
-    <section id="section3" class="homeSlide">
-    <div class="bcg"
-        data-center="background-position: 25% 0px;"
-        data-top-bottom="background-position: 50% -100px;"
-        data-anchor-target="#section3">
-        <div class="hsContainer">
-          <div class="hsContent"
-              data-center="opacity: 1"
-              data-106-top="opacity: 0"
-              data-anchor-target="#section3 h4">
-          </div>
-        </div>
-      <div class="section3pos">
-      <div class="row">
+
+    <div class="row">
+      <div class="section3">
         <div class="large-8 columns">
-          <h4 style="color:white">Patient medication tracker</h4>
+          <h4>Patient medication tracker</h4>
      
           <p>This application tracks numerous patients across multiple hospitals and stores general information, as well as their medications. Patient medication tracker is a responsive app that works on phones and tablets.</p>
      
@@ -627,16 +605,11 @@
         </div>
         <div class="large-4 columns">
           <div class="appimage">
-            <img src="http://www.placecage.com/400/300">
+            <img src="images/Crescendo.png">
            </div>
         </div>
       </div>
-    </div>
-      </div>
-    </section>
-  </div>
-
-
+    
        
    
     <footer class="row">
@@ -648,9 +621,10 @@
           </div>
           <div class="large-6 columns">
             <ul class="inline-list right">
-            <a href="https://github.com/Kimokeo"><img src="images/webicon-github.svg" height="50" width="50"></a>
-            <a href="https://www.linkedin.com/pub/kimokeo-rabang/b6/72a/b15"><img src="images/webicon-linkedin.svg" height="50" width="50"></a>
-            <a href="mailto@kimokerava@gmail.com"><img src="images/webicon-mail.svg" height="50" width="50"></a>
+              <li><a href="#">Link 1</a></li>
+              <li><a href="#">Link 2</a></li>
+              <li><a href="#">Link 3</a></li>
+              <li><a href="#">Link 4</a></li>
             </ul>
           </div>
         </div>
@@ -665,11 +639,6 @@
     <div id="footer_wrap" class="outer">
       <footer class="inner">
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-              <ul class="inline-list right">
-              <a href="https://github.com/Kimokeo"><img src="images/webicon-github.svg" height="50" width="50"></a>
-              <a href="https://www.linkedin.com/pub/kimokeo-rabang/b6/72a/b15"><img src="images/webicon-linkedin.svg" height="50" width="50"></a>
-              <a href="mailto@kimokerava@gmail.com"><img src="images/webicon-mail.svg" height="50" width="50"></a>
-            </ul>
       </footer>
     </div>
     <script>window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.9.1.min.js"><\/script>')</script>

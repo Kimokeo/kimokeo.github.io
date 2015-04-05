@@ -137,15 +137,16 @@ img {
   position: relative;
   margin: 0 auto;
   max-width: 739px;
-  padding: 5px;
+  padding: 2px;
   margin: 10px 0 10px 0;
-  border: 1px solid #ebebeb;
+  border: 0px solid #ebebeb;
+  border-radius: 10px;
 
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
+  box-shadow: 0 0 2px #ebebeb;
+  -webkit-box-shadow: 0 0 2px #ebebeb;
+  -moz-box-shadow: 0 0 2px #ebebeb;
+  -o-box-shadow: 0 0 2px #ebebeb;
+  -ms-box-shadow: 0 0 2px #ebebeb;
 }
 .avatar {
 border-radius: 150px;
@@ -153,8 +154,35 @@ border-radius: 150px;
 -moz-border-radius: 150px;
 height: 200px;
 width: 200px;
-
 }
+
+.hsContainer {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    opacity: 0;
+}
+.hsContent {
+    max-width: 450px;
+    margin: -150px auto 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+    color: #ebebeb;
+    padding: 0 8%;
+    text-align: center
+}
+.bcg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
 p img {
   display: inline;
   margin: 0;
@@ -261,24 +289,36 @@ th {
   position: relative;
   top: -100%;
 }
-.section1{
+#section1 .bcg{
 background-image: url(../images/hilo.jpg);
-background-position: center;
-min-height: 900px;
+min-height: 1000px;
 }
 
-.section2{
+#section2 .bcg{
 background-image: url(../images/stars.jpg);
-background-position: center;
-min-height: 900px;
+background-color: black;
+min-height: 1000px;
+color: white;
 }
 
+#section3 .bcg{
+background-image: url(../images/nyc.jpg);
+min-height: 1000px;
+}
 .section1pos{
-margin-top: 200px;
+margin-top:  200px;
 }
 
 .section2pos{
-margin-top: px;
+color: white;
+margin-top: 400px;
+background-color: rgba(0,0,0,0.5);
+}
+
+.section3pos{
+color: white;
+margin-top: 400px;
+background-color: rgba(0,0,0,0.5);
 }
 
 td {
