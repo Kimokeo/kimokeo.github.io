@@ -309,6 +309,14 @@ min-height: 1000px;
 margin-top:  200px;
 }
 
+.reveal-modal-inner {
+  margin: 0 auto;
+  position: relative;
+  max-width: 950px;
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
 .section2pos{
 color: white;
 margin-top: 400px;
@@ -319,6 +327,12 @@ background-color: rgba(0,0,0,0.5);
 color: white;
 margin-top: 400px;
 background-color: rgba(0,0,0,0.5);
+}
+
+.resume{
+color: black;
+background-color: rgba(0,0,2,0.02);
+
 }
 
 td {
