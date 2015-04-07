@@ -103,7 +103,7 @@
         </div>
           <a href="#" class="button round", data-reveal-id="myModal">Click Here For A Demo!</a>
 
-          <div id="myModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+          <div id="myModal" class="reveal-modal xlarge" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
             <h2 id="modalTitle">Crescendo Demo</h2>
             <script type="text/javascript">
             (function(){
@@ -392,7 +392,7 @@
             }
             .hdr {
              text-align:center;
-             font-weight:bold;
+             font-weight:b;
              text-decoration:underline;
              padding:.5em;
              size: 75%;
@@ -626,7 +626,7 @@
         </div>
         <div class="large-4 columns">
           <div class="appimage">
-            <img src="http://www.placecage.com/400/300">
+            <img src="images/patient_medication_tracker.jpg">
            </div>
         </div>
       </div>
@@ -644,33 +644,70 @@
   <div class="resume">
     <div class="row">
       <div class="large-12 columns">
-        <div class="large-6 columns">
+        <div class="large-9 columns">
           <h1> About me </h1>
-          <p>Dedicated programmer who is empowered by a desire to learn and grow. Excels at multitasking with an emphasis on efficiency. Experience includes software engineering, management, budgeting and accounting. Naturally ambitious from a young age to master skill sets.
+            <p>I grew up in a small agricultural villiage in Pahoa, Hawaii. Since then I've come a long way in my life long journey to learn and grow. As a developer i've made use of Ruby on Rails, JavaScript, AJAX, HTML, CSS, jQuery and front-end frameworks such as Foundation and Bootstrap. My email address is Kimokerava@gmail.com - Let's Chat!
+            </p>
+        <a href="#" class="button round", data-reveal-id="ResumeModal">My Resume!</a>
+        <div id="ResumeModal" class="reveal-modal" data-reveal aria-labelledby="ResumeModalTitle" aria-hidden="true" role="dialog">
+          <h1 id="ResumeModaltitle" align="center">Kimokeo Rabang Resume</h1>
+          <h3 align="center">Profile</h3>
+          <p>Dedicated programmer who is empowered by a desire to learn and grow. Excels at multitasking with an emphasis on efficiency. Experience includes software engineering, management, budgeting and accounting. Naturally ambitious from a young age to master skill sets.<p>
+          <h3 align="center">Work Experience</h3>
+          <p>
+            <b>Equifax; Charleston, sc — 2013-2015</b>
+              <li>Worked multiple roles including office management and various data entry positions.</li>
+              <li>Designed charts and pamphlets, attaining goals and deadlines.</li> 
+              <li>Maintained office premises, ordered and organized components for projects.</li> 
+              <li>Effectively communicated with C level executives, vendors and staff.</li>
+                <br>
+            <b>Assistant Manager, Moes; Charleston, SC — 2012-2015</b>
+                <br>
+              <li>Managed a team that operated in the busy heart of Downtown Charleston</li>
+              <li>Daily responsibilities  include accounting, budgeting, and management of inventory and components necessary for production.</li>
+              <li>Delegation of tasks for efficient deadline completion.</li>
+              <li>Maintained strong and positive communication with team members while initiating fast paced decision making.</li>
+                <br>
+            <b>Computer design; Pahoa, Hawaii — 2004-2006</b>
+                <br>
+              <li>A high school project that turned into a personal business.</li>
+              <li>Designed pamphlets and charts for the Hawaii Macadamia Association.</li>
+              <li>Assisted web design for a local non-profit organization.</li>
           </p>
-        
-        <h3>Work Experience</h3>
-        <p>
-          <bold>Equifax; Charleston, sc — 2013-2015</bold>
-            <br>
-          <li>Worked multiple roles including office management and various data entry positions.</li>
-          <li>Designed charts and pamphlets, attaining goals and deadlines.</li> 
-          <li>Maintained office premises, ordered and organized components for projects.</li> 
-          <li>Effectively communicated with C level executives, vendors and staff.</li>
-            <br>
-          <bold>Assistant Manager; Moes; Charleston, SC — 2012-2015</bold>
-            <br>
-          <li>Daily responsibilities  include accounting, budgeting, and management of inventory and components necessary for production.</li>
-          <li>Delegation of tasks for efficient deadline completion.</li>
-          <li>Maintained strong and positive communication with team members while initiating fast paced decision making.</li>
-            <br>
-          <bold>Computer design; Pahoa, Hawaii — 2004-2006</bold>
-            <br>
-            <li>A high school project that turned into a personal business.</li>
-            <li>Designed pamphlets and charts for the Hawaii Macadamia Association.</li>
-            <li>Assisted web design for a local non-profit organization.</li>
-        </p>
+          <h3 align="center">Education</h3>
+          <p>
+            <b>2015 - The Iron Yard, Ruby on Rails</b>
+              <li>Learned the essentials of building responsive full stack web applications</li>
+              <li>Experience working with version control, SCRUM methodology and workflow projections for group projects</li>
+              <br>
+            <b>2013 - College of Charleston, B.A. in Political Science with a minor in Music</b>
+              <li>Focus in international law and policy</li>
+              <li>Minor consisted of music theory and history</li>
+              <br>
+            <h3 align="center">Skills</h3>
+            <p>Programming experience with Ruby, Javascript, SQL, Github, Heroku, and Audio Engineering. Over 3 years of experience in management and customer service roles. Strong communication with co-workers, customers and vendors. Enjoy learning new concepts and quick to adapt to new environments. </p>
+        <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+        <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="javascripts/foundation/foundation.js"></script>
+        <script src="javascripts/foundation/foundation.reveal.js"></script>
+        <script type="text/javascript"> 
+        $(document).foundation();
+        </script>
+      </div>
+      <a href="https://github.com/Kimokeo"><img src="images/webicon-github.svg" height="50" width="50"></a>
+      <a href="https://www.linkedin.com/pub/kimokeo-rabang/b6/72a/b15"><img src="images/webicon-linkedin.svg" height="50" width="50"></a>
+      <a href="mailto@kimokerava@gmail.com"><img src="images/webicon-mail.svg" height="50" width="50"></a>
     </div>
+      <div class="large-3 columns">
+        <div class="avatar2"><img src="images/meee.png"></div>
+      </div>
+    </div>
+
+  </div>
+  <div id="footer_wrap" class="outer">
+  <footer class="inner">
+    <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+  </footer>
   </div>
     <script>window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.9.1.min.js"><\/script>')</script>
     <script src="bower_components/skrollr/dist/skrollr.min.js"></script>
