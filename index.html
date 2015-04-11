@@ -105,6 +105,7 @@
 
           <div id="myModal" class="reveal-modal xlarge" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
             <h2 id="modalTitle">Crescendo Demo</h2>
+            <script src="node_modules/underscore/underscore.js"></script>
             <script type="text/javascript">
             (function(){
              if(window.addEventListener) window.addEventListener('load',init,false);
@@ -398,6 +399,10 @@
              size: 75%;
             }
             </STYLE>
+
+              <button onclick="octUp()">Octave up</button>
+              <button onclick="octDown()">Octave down</button>
+
             <div id="piano">
             <div class="ebony">
             <span midi="22"></span><span class="break"></span><span midi="25"></span><span midi="27"></span><span class="break"></span><span midi="30"></span><span midi="32"></span><span midi="34"></span><span class="break"></span><span midi="37"></span><span midi="39" class=""></span><span class="break"></span><span midi="42" class=""></span><span midi="44"></span><span midi="46"></span><span class="break"></span><span midi="49"></span><span midi="51"></span><span class="break"></span><span midi="54"></span><span midi="56" class=""></span><span midi="58" class=""></span><span class="break"></span><span midi="61"></span><span midi="63" class=""></span><span class="break"></span><span midi="66"></span><span midi="68"></span><span midi="70"></span><span class="break"></span><span midi="73"></span><span midi="75"></span><span class="break"></span><span midi="78"></span><span midi="80"></span><span midi="82"></span><span class="break"></span><span midi="85"></span><span midi="87"></span><span class="break"></span><span midi="90"></span><span midi="92"></span><span midi="94"></span><span class="break"></span><span midi="97"></span><span midi="99"></span><span class="break"></span><span midi="102"></span><span midi="104"></span><span midi="106"></span>
