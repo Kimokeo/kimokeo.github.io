@@ -40,7 +40,7 @@
           </div>
         </div>
           <div class="section1pos">
-            <div class="large-12 columns">
+            <div class="large-12 columns" class="row">
               <!-- <div id="header_wrap2" class="outer"> -->
               <header class="inner">
                 <div class="large-8 columns">
@@ -49,8 +49,8 @@
                   <h2 id="project_tagline">Music Tinker</h2>
                   <h2 id="project_tagline">Brunch Enthusiast</h2>
                 </div>
-                  <div class="large-4 columns">
-                    <div class="avatar"><img src="images/Kimokeo_Rabang.jpg"></div>
+                  <div class="small-4 columns">
+                    <div id="avatar"><img src="images/Kimokeo_Rabang.jpg"></div>
                   </div>
               </header>
             </div>
@@ -698,8 +698,8 @@
       <a href="https://www.linkedin.com/pub/kimokeo-rabang/b6/72a/b15"><img src="images/webicon-linkedin.svg" height="50" width="50"></a>
       <a href="mailto:kimokerava@gmail.com"><img src="images/webicon-mail.svg" height="50" width="50"></a>
     </div>
-      <div class="large-3 columns">
-        <div class="avatar2"><img src="images/meee.png"></div>
+      <div class="small-3 columns">
+        <div id="avatar2"><img src="images/meee.png"></div>
       </div>
     </div>
 
@@ -714,6 +714,9 @@
     <script src="_main.js"></script>
     <script type="text/javascript">
     var s = skrollr.init();
+    function() {
+    return (/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera);
+}
     </script>
   </body>
 </html>
