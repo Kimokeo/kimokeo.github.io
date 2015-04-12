@@ -149,8 +149,7 @@ img {
   -o-box-shadow: 0 0 2px #ebebeb;
   -ms-box-shadow: 0 0 2px #ebebeb;
 }
-#avatar img{
-background-image: url('Kimokeo_Rabang.jpg');
+.avatar img{
 border-radius: 200px;
 -webkit-border-radius: 200px;
 -moz-border-radius: 200px;
@@ -158,9 +157,6 @@ height: 100%;
 width: 100%;
 }
 
-#avatar:hover {
-background-image: url('pineapple.jpg');
-}
 
 #avatar2 img{
 height: 100%;
