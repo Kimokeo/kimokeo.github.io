@@ -328,13 +328,22 @@ margin-top:  200px;
 .section2pos{
 color: white;
 margin-top: 400px;
-background-color: rgba(0,0,0,0.5);
+padding-top: 25px;
+background-color: rgba(0,0,0,0.65);
 }
 
 .section3pos{
 color: white;
-margin-top: 400px;
-background-color: rgba(0,0,0,0.5);
+margin-top: 325px;
+padding-top: 25px;
+background-color: rgba(0,0,0,0.65);
+}
+
+.section4pos{
+color: white;
+margin-top: 25px;
+padding-top: 25px;
+background-color: rgba(0,0,0,0.65);
 }
 
 .resume{
