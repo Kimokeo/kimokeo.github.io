@@ -117,7 +117,7 @@
            </div>
           </div>
 
-          <div id="myModal" class="reveal-modal xlarge" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+          <div id="myModal" class="reveal-modal large" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
             <h2 id="modalTitle">Crescendo Demo</h2>
             <script src="node_modules/underscore/underscore.js"></script>
             <script type="text/javascript">
@@ -414,8 +414,8 @@
             }
             </STYLE>
 
-              <button onclick="octUp()">Octave up</button>
-              <button onclick="octDown()">Octave down</button>
+              <a onclick="octUp()">Octave up</a>
+              <a onclick="octDown()">Octave down</a>
 
             <div id="piano">
             <div class="ebony">
@@ -673,12 +673,304 @@
       </div>
     </section>
   </div>
+  <br>
+<h3 id="d3header">Fun with D3.js</h3>
+  <br>
+<div class="small-8 columns" id="d3buttons">
+    <a onclick="sup()" class="button radius">Wave</a>
+    <a onclick="changeColor()" class="button radius">Color</a>
+    <a onclick="big()" class="button radius">Bigger</a>
+    <a onclick="small()" class="button radius">Smaller</a>
+    <a onclick="back()" class="button radius">Background</a>
+</div>
+<div class="small-12 columns">
+  <div class="section5pos">
+
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      window.onload = function createSVG() {
+          mySVG = d3.select('.section5pos').append('svg:svg')
+            .attr('height', '500')
+            .attr('width', '100%')
+            .style('padding-bottom', '50')
+            .attr('padding-left', '17%')
+            .attr("class", "svg-background");
+          mySVG.append('circle')
+            .attr('id', 'start')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end1')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end2')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end3')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end4')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end5')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end6')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end7')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end8')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end9')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end10')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end11')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end12')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end13')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end14')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end15')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end16')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end17')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end18')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end19')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end20')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end21')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end22')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end23')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end24')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end25')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end26')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end27')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end28')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end29')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end30')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end31')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end32')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end33')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end34')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end35')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end36')
+            .attr('class', 'foobar');
+          mySVG.append('circle')
+            .attr('id', 'end37')
+            .attr('class', 'foobar');
+          mySVG.append('line')
+            .attr('class', 'foobar');
+          circles = d3.selectAll('circle')
+            .attr('r', '10')
+            .attr('cy', '95%')
+            .style('fill', 'steelblue');
+          moveCircles();
+            // button.on("click", function() {
+          //  circles.transition().attr("x",320);
+    };
+        function moveCircles() {
+          d3.select("#start")
+            .attr('cx', '25');
+          d3.select("#end")
+            .attr('cx', '50');
+          d3.select("#end1")
+            .attr('cx', '75');
+          d3.select("#end2")
+            .attr('cx', '100');
+          d3.select("#end3")
+            .attr('cx', '125');
+          d3.select("#end4")
+            .attr('cx', '150');
+          d3.select("#end5")
+            .attr('cx', '175');
+          d3.select("#end6")
+            .attr('cx', '200');
+          d3.select("#end7")
+            .attr('cx', '225');
+          d3.select("#end8")
+            .attr('cx', '250');
+          d3.select("#end9")
+            .attr('cx', '275');
+          d3.select("#end10")
+            .attr('cx', '300');
+          d3.select("#end11")
+            .attr('cx', '325');
+          d3.select("#end12")
+            .attr('cx', '350');
+          d3.select("#end13")
+            .attr('cx', '375');
+          d3.select("#end14")
+            .attr('cx', '400');
+          d3.select("#end15")
+            .attr('cx', '425');
+          d3.select("#end16")
+            .attr('cx', '450');
+          d3.select("#end17")
+            .attr('cx', '475');
+          d3.select("#end18")
+            .attr('cx', '500');
+          d3.select("#end19")
+            .attr('cx', '525');
+          d3.select("#end20")
+            .attr('cx', '550');
+          d3.select("#end21")
+            .attr('cx', '575');
+          d3.select("#end22")
+            .attr('cx', '600');
+          d3.select("#end23")
+            .attr('cx', '625');
+          d3.select("#end24")
+            .attr('cx', '650');
+          d3.select("#end25")
+            .attr('cx', '675');
+          d3.select("#end26")
+            .attr('cx', '700');
+          d3.select("#end27")
+            .attr('cx', '725');
+          d3.select("#end28")
+            .attr('cx', '750');
+          d3.select("#end29")
+            .attr('cx', '775');
+          d3.select("#end30")
+            .attr('cx', '800');
+          d3.select("#end31")
+            .attr('cx', '825');
+          d3.select("#end32")
+            .attr('cx', '850');
+          d3.select("#end33")
+            .attr('cx', '875');
+          d3.select("#end34")
+            .attr('cx', '900');
+          d3.select("#end35")
+            .attr('cx', '925');
+          d3.select("#end36")
+            .attr('cx', '950');
+          d3.select("#end37")
+            .attr('cx', '975')
+            .text('hi');
+        };
 
 
-       
-   
 
 
+    function sup() { 
+      d3.selectAll("circle")
+        .transition()
+        .delay(function(d, i) {
+          return i * 125;
+        })
+        .duration(1800)
+        .attr("cy", "10%")
+        .style("fill", "hsl(" + (Math.random() * 360) + ",100%,50%)")
+        .each("end", function down() {
+        d3.select(this)
+        .transition()
+        .delay(function(d, i) {
+          return i * 125;
+        })
+        .duration(1700)
+        .attr("cy", "90%")
+        .attr("r", "10");
+      })
+    };
+
+    function back() {
+      d3.select(".svg-background")
+        .transition()
+        .delay(function(d, i) {
+          return i * 125;
+        })
+        .style("background-color", "hsl(" + (Math.random() * 360) + ",100%,50%)" )
+        .duration(3000);
+    };
+
+    function big() {
+      d3.selectAll("circle")
+        .transition()
+        .delay(function(d, i) {
+          return i * 125;
+        })
+        .duration(1700)
+        .attr("r", "15")
+    };
+
+    function small() {
+      d3.selectAll("circle")
+        .transition()
+        .delay(function(d, i) {
+          return i * 125;
+        })
+        .duration(1700)
+        .attr("r", "7")
+    };
+
+    var changeColor = function() {
+      d3.selectAll("circle")
+        .transition()
+        .delay(function(d, i) {
+        return i * 125;
+      })
+        .duration(1700)
+        .style("fill", "hsl(" + (Math.random() * 360) + ",100%,50%)");
+    };
+
+
+    </script>
+  </div>
 
   <div class="resume">
     <div class="row">
